@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teaching Website</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</head>
+<body class="font-sans min-h-screen bg-gray-100">
+
+<nav class="lg:flex lg:justify-between bg-gray-800 text-white p-5 fixed top-0 w-full">
+    <div class="flex justify-between items-center mx-5">
+        <h1 class="text-2xl lg:text-3xl font-bold mb-2 lg:mb-0">DELTA Academy</h1>
+
+
+        <span class="lg:hidden text-2xl" id="menu">
+            <ion-icon name="menu" onclick="Menu(this)"></ion-icon>
+        </span>
+       
+    </div>
+
+    <ul class=" lg:flex font-medium text-lg z-[-1] lg:z-auto lg:static absolute  left-0   lg:w-auto my-2 px-6  bg-gray-800 lg:px-0 opacity-0 lg:opacity-100 transition-all ease-in ">
+        <li> <a href="/Study.html" class="px-2 lg:px-5 hover:underline hover:text-red-400"> HOME  </a> </li> 
+        <li> <a href="/std9.html" class="px-2 lg:px-5 hover:underline hover:text-red-400 "> 9th & 10th  </a> </li> 
+        <li> <a href="/std11.html" class="px-2 lg:px-5 hover:underline hover:text-red-400"> 11th & 12th  </a> </li> 
+        <li> <a href="/contact.html" class="px-2 lg:px-5 hover:underline hover:text-red-400"> Contact Us  </a> </li> 
+        <li> <a href="/about.html" class="px-2 lg:px-5 hover:underline hover:text-red-400"> About Us  </a> </li> 
+
+    </ul>
+
+    
+</nav>
+
+<div class="mx-2 md:mx-auto mt-20">
+    <img src="s1.png" class="md:mx-auto w-full  md:w-auto mt-24 md:mt-28 rounded-lg md:rounded-lg"  alt="School Image" id="image">
+    
+</div>
+
+<h2 class="text-2xl md:text-3xl font-medium mx-2 md:mx-auto mt-4">“Education is the passport to the future, for tomorrow belongs to those who prepare for it today.” – Our Belief</h2>
+<h2 class="text-xl md:text-3xl font-medium mx-2 md:mx-auto mt-4"> "LEARN" your Favourite Subjects from our "GREAT" Teachers.. </h2>
+
+<button type="button" class="bg-yellow-400 text-black p-2 md:p-1 font-medium rounded-lg mx-2 my-4">Learn More</button>
+
+
+<div>
+ <img src="/Books.jpg" class="h-80 mx-auto md:mx-auto rounded-lg" > <!-- Pehla aapde normal ma aapi didhu k ml-14 , pachi ene hesabe e md: ma kari dese beacuse we have use mx-auto -->
+ <h2 class="ml-10 md:mx-auto text-red-500 pt-4 text-3xl"> About Us </h2>
+ <h1 class="ml-10 md:mx-auto text-red-500  text-3xl"> Innovative Way To Learn </h1>
+ <p class="ml-10 md:mx-auto mt-5 md:mt-5 mr-10 "> Welcome to our educational platform dedicated to fostering excellence in science education for 11th and 12th-grade students preparing for JEE, NEET, and GUJCET examinations. Our mission is to provide a comprehensive learning environment that empowers students with the knowledge and skills necessary to excel in their academic pursuits. With a focus on science education, we aim to guide and support students through the challenging curriculum of 11th and 12th grades, preparing them for the competitive entrance exams that lie ahead. What sets us apart is our commitment to creating engaging and effective learning resources. Our experienced educators and subject matter experts have carefully curated study materials, practice exams, and interactive lessons to ensure a thorough understanding of the subjects. We recognize the importance of a holistic approach to education, combining theoretical knowledge with practical application to foster a deeper understanding of the sciences. Our platform is designed to be user-friendly, providing students with easy access to a wealth of educational resources. From comprehensive study guides to real-time doubt resolution, we strive to create an environment that nurtures curiosity and encourages a love for learning. Join us on this educational journey, where we empower students to reach their full potential and achieve success in their academic endeavors. Together, let's embark on a path of knowledge, growth, and achievement.     </p>
+
+
+</div>
+
+<div>
+<h2 class="text-3xl text-red-500 text-center md:text-center  pt-20"> SUBJECTS </h2>
+<p class=" text-3xl font-medium pt-4 w-80 ml-14 text-center md:text-center md:mx-auto md:w-auto"> Explore Most Popular Courses </p> 
+
+<div class="flex md:flex-row flex-col mt-5">  
+
+<div class="mx-10 my-5  "> 
+    <img src="s2.png" class="rounded-lg md:rounded-lg  cursor-pointer " > 
+    <a class="text-center text-3xl " href="https://drive.google.com/drive/folders/1I4hL_AEJT--Ft0M0vxd0y1sDWIESyIs0?usp=drive_link" > <span class="lg:mx-32 mx-28 underline hover:text-red-500">  Gujcet </span> </a> 
+</div>
+
+<div class="mx-10  my-5"> 
+    <img src="s1.png" class="rounded-lg md:rounded-lg">
+     <a class="text-center text-3xl"  href="https://drive.google.com/drive/folders/1I4hL_AEJT--Ft0M0vxd0y1sDWIESyIs0?usp=drive_link">   <span class="lg:mx-36 mx-16 underline hover:text-red-500"> JEE & NEET </span>   </a>
+</div>
+
+<div class="mx-10  my-5">
+     <img src="s2.png" class="rounded-lg md:rounded-lg">
+      <a class="text-center text-3xl" href="https://drive.google.com/drive/folders/1I4hL_AEJT--Ft0M0vxd0y1sDWIESyIs0?usp=drive_link"> <span class="lg:mx-28 mx-16 underline hover:text-red-500">  9th to 12th   </span>  </a>
+</div>
+
+</div>
+</div> 
+
+<div class= "h-96 w-full md:w-auto bg-gray-800">
+
+    <h2 class=" text-red-500 text-3xl text-center md:text-left pt-14 md:pl-6">   GET IN TOUCH </h2>
+
+  <div class="flex flex-col text-white pl-5 mt-8 ">
+    
+    <span class="text-xl  cursor-pointer"> <ion-icon class="text-3xl" name="location-outline"> </ion-icon> Narendra nagar, near Vk mall , Surat.  </span>
+    <span class="text-xl  cursor-pointer">   <ion-icon class="text-3xl pt-3" name="call-outline"> </ion-icon> +91 9898989XXXX </span>
+    <span class="text-xl  cursor-pointer">  <ion-icon class="text-3xl pt-3 " name="mail-outline"> </ion-icon> Delta1234@gmail.com  </span>
+  </div>
+
+<div class="text-3xl text-white ml-6 mt-10 flex">
+
+<div class="border-2 border-sky-500 rounded-md p-2 mx-2 cursor-pointer hover:bg-black"> <a href="https://www.instagram.com/cristiano/">   <ion-icon class="" name="logo-twitter"> </ion-icon> </div> </a>
+<div class="border-2 border-sky-500 rounded-md  p-2  mx-2  cursor-pointer  hover:bg-black "> <a href="https://www.instagram.com/cristiano/">   <ion-icon name="logo-whatsapp"> </ion-icon>  </div> </a>
+    <div class="border-2 border-sky-500 rounded-md  p-2  mx-2  cursor-pointer  hover:bg-black"> <a href="https://www.instagram.com/cristiano/"> </a>  <ion-icon name="logo-instagram"> </ion-icon> </div> </a>
+        <div class="border-2 border-sky-500 rounded-md  p-2  mx-2  cursor-pointer  hover:bg-black">  <a href="https://www.instagram.com/cristiano/"> </a><ion-icon name="logo-facebook"> </ion-icon> </div> </a>
+
+</div>
+
+
+
+</div>
+
+<script src="study.js"> </script>
+</body>
+</html>
